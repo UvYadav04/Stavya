@@ -544,6 +544,8 @@ hr.foothr {
 
 .registrationform label.radio {
   width: 15%;
+  margin-right: 10px;
+  font-size: 1.2rem;
   text-align: center;
 }
 
