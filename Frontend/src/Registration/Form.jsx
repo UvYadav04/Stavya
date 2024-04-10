@@ -27,7 +27,7 @@ export default function Form() {
     const [first, setfirst] = useState(false)
     const [second, setsecond] = useState(false)
     const [image, setimage] = useState('')
-    console.log(image)
+    // console.log(image)
 
     let location = useLocation()
     const state = location.state
