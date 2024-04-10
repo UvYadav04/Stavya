@@ -123,7 +123,7 @@ export default function Form() {
 
                         <div className={inter ? "inter" : "d-none"}>
                             <label className='institute' htmlFor="institute">Institute: </label>
-                            <label className='radio' htmlFor="iiit">IIITV-ICD: </label>
+                            <label className='radio' htmlFor="iiit">IIITVICD: </label>
                             <input className='radio' type="radio" id='iiit' name='college' onChange={(e) => handlecheck(e)} />
                             <label className='radio' htmlFor="other">Other:  </label>
                             <input className='radio' type="radio" id='other' name='college' onChange={(e) => handlecheck(e)} />
