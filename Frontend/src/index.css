@@ -1,0 +1,749 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(0, 0, 0);
+  padding: 0;
+}
+
+.head {
+  width: 100%;
+
+}
+
+
+.header {
+  margin-top: -23px;
+  /* background-color: red; */
+}
+
+.header .headerrow .left img {
+  max-height: 65px;
+  filter: brightness(40);
+}
+
+
+.header .headerrow .left img:hover {
+  transition-duration: 2s;
+  transform: rotateY(360deg);
+  transition-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  /* background-color: red; */
+}
+
+
+.header .headerrow .right {
+  text-align: center;
+  border-bottom: 2px solid rgb(255, 255, 255);
+  border-right: 2px solid rgb(255, 255, 255);
+  box-sizing: border-box;
+  border-radius: 10px;
+  height: 49px;
+  /* align-self: flex-end; */
+  /* background-color: red; */
+  /* position: absolute; */
+}
+
+.header .headerrow .right {
+
+  color: rgb(255, 255, 255);
+  font-family: 'tektur';
+  font-weight: 500;
+  /* background-color: red;  */
+
+}
+
+.header .headerrow .right .L {
+  margin-left: 5%;
+}
+
+.header .menu {
+  font-family: "sevillana";
+  z-index: 5;
+}
+
+.header .menubar {
+  position: absolute;
+  transition: 0.5s;
+  background: linear-gradient(to right, rgb(104, 2, 2), black);
+  min-height: 20%;
+}
+
+.show {
+  right: 8%;
+  top: 7%;
+}
+
+.hide {
+  display: none;
+}
+
+.cont2 {
+  /* width: 90%; */
+  height: 60%;
+  /* height: fit-content; */
+  margin-top: 2%;
+  /* padding-top: 5%;
+  padding-bottom: 5%; */
+  /* background-color: blue; */
+}
+
+
+img.bgimg {
+  position: absolute;
+  opacity: 0.1;
+  width: 60%;
+  margin-top: 5%;
+}
+
+.cont2 .row2 .carousel1 {
+  align-items: flex-end;
+}
+
+.cont2 .row2 .carousel {
+  width: 100%;
+  height: 100%;
+}
+
+.cont2 .row2 .carousel img {
+  width: 100%;
+  height: 100%;
+  max-width: 70%;
+  /* max-height: 80%; */
+  margin: auto;
+  box-shadow: 5px 5px 10px 2px black;
+  border-radius: 0 20px 0 20px;
+}
+
+
+.cont2 .row2 .about {
+  font-family: "Unno";
+  font-size: 1.2em;
+
+  /* color: white; */
+  /* max-width: inherit; */
+  height: fit-content;
+  max-height: inherit;
+  border-radius: 0 0 0 10px;
+  margin-left: 4%;
+  margin-top: 4%;
+  /* border-left: 2px solid rgb(0, 0, 0);
+  border-bottom: 2px solid rgb(0, 0, 0);
+  box-shadow: -2px -2px -5px rgb(0, 0, 0);
+  overflow: hidden; */
+}
+
+.cont2 .row2 .about h1 {
+  font-size: 3.4rem;
+  color: white;
+}
+
+.cont2 .row2 .about h1 .stavya {
+  font-size: 3.7rem;
+  text-shadow: 2px 2px solid white;
+}
+
+.cont2 .row2 .about p {
+  word-spacing: 5px;
+}
+
+.cont2 .row2 .photos {
+  /* border: 1px solid black; */
+}
+
+.cont2 .row2 .photos img {
+  max-width: 70%;
+  position: relative;
+  border: 3px solid white;
+  box-shadow: 3px 3px 6px 2px white;
+}
+
+.cont2 .row2 .photos img.first {
+  margin-top: 0px;
+}
+
+.cont2 .row2 .photos img.second {
+  top: -80px;
+  left: 130px;
+  /* transition: 1s; */
+  max-width: 65%;
+  transform: rotateZ(-10deg);
+}
+
+/* ********items****************** */
+
+.cont3 {
+  /* background-color: rgb(83, 82, 82); */
+}
+
+img.bgimg2 {
+  position: absolute;
+  top: 210%;
+  width: 50%;
+  opacity: 0.3;
+  filter: brightness(4);
+}
+
+img.bgimg3 {
+  position: absolute;
+  top: 80%;
+  left: 0%;
+  width: 60%;
+  transform: rotateZ(30deg);
+  opacity: 0.3;
+}
+
+img.bgimg4 {
+  position: absolute;
+  opacity: 0.3;
+  top: 180%;
+  left: 50%;
+  width: 50%;
+}
+
+img.bgimg5 {
+  position: absolute;
+  opacity: 0.1;
+  top: 300%;
+  left: 50%;
+  width: 40%;
+  /* background-color: red; */
+}
+
+img.bgimg6 {
+  position: absolute;
+  opacity: 0.2;
+  top: 330%;
+  left: 40%;
+  width: 40%;
+  /* background-color: red; */
+}
+
+img.bgimg7 {
+  position: absolute;
+  opacity: 0.6;
+  top: 370%;
+  left: -4%;
+  width: 40%;
+  /* background-color: red; */
+}
+
+img.bgimg8 {
+  position: absolute;
+  opacity: 0.6;
+  top: 430%;
+  left: 50%;
+  width: 25%;
+  /* background-color: red; */
+}
+
+img.bgimg9 {
+  position: absolute;
+  opacity: 0.5;
+  top: 525%;
+  left: 51%;
+  width: 30%;
+  /* background-color: red; */
+}
+
+img.bgimg11 {
+  position: absolute;
+  left: 0;
+  max-width: 10%;
+  filter: brightness(1)
+}
+
+.cont3 .row3 h1 {
+  font-family: "sevillana";
+  font-weight: 600;
+  color: wheat;
+}
+
+.cont3 .row3 .heading3 {
+  /* background-color: rgb(214, 147, 103); */
+  border-radius: 10px;
+}
+
+.cont3 .row4 {
+  /* background-color: red; */
+}
+
+.cont3 .row4 .left {
+  /* width: 100%; */
+  border-left: 1px solid rgb(255, 255, 255);
+  /*changed*/
+  border-top: 1px solid rgb(255, 255, 255);
+  /*changed*/
+  border-radius: 10px 0 0 0;
+  height: fit-content;
+}
+
+.cont3 .row4 img {
+  max-width: 80%;
+  /* width: 100%;  */
+  height: 100%;
+  padding: 20px;
+}
+
+.cont3 .row3 hr {
+  color: white;
+  /* : 2px solid white; */
+}
+
+.cont3 .row4 .event1 {
+  /* font-size: 1.1rem; */
+  border-radius: 0 0 10px 0;
+  border-right: 1px solid rgb(255, 255, 255);
+  /*changed*/
+  border-bottom: 1.4px solid rgb(255, 255, 255);
+  /*changed*/
+  font-family: "Unna";
+  color: white;
+}
+
+.cont3 .row4 .event1 h2 {
+  margin-top: 0;
+  font-family: "Kaushan Script";
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: -3.5%;
+}
+
+.cont3 button {
+  border: none !important;
+  color: rgb(6, 6, 255);
+  align-self: flex-end;
+}
+
+.cont3 button.button2 {
+  width: 60px;
+  border-right: 1.5px solid rgb(0, 0, 0) !important;
+  /*changed*/
+  border-bottom: 2px solid rgb(0, 0, 0) !important;
+  /*changed*/
+}
+
+
+
+.row4 button {
+  width: 100%;
+  border: 1px solid rgb(0, 0, 0) !important;
+  /*changed*/
+  font-size: 1.2rem;
+  color: white;
+  background-color: rgb(221, 149, 101);
+  border-radius: 100px;
+}
+
+.footer {
+  background-color: rgb(165, 58, 22);
+  width: 100%;
+  height: 35%;
+}
+
+.footer .college h1,
+h3,
+h5 {
+  font-weight: 800;
+  font-family: 'tektur';
+}
+
+.att {
+  background-color: rgb(210, 219, 83);
+  border-radius: 100%;
+  box-shadow: 3px 3px 8px 2px black;
+}
+
+.att:hover {
+  /* background-color: red; */
+  transition-duration: 1.5s;
+  transition-timing-function: ease-in-out;
+  transform: rotateY(360deg);
+}
+
+
+.cont5 {
+  /* border: 2px solid black; */
+  /* background-color: red; */
+  /* height: 10%; */
+  width: 100%;
+}
+
+.cont5 button {
+  font-size: 120%;
+  width: 30%;
+  background-color: whitesmoke;
+  border-radius: 0 40px 0 40px;
+}
+
+.cont5 .col6 {
+  border: 2px solid black;
+  border-radius: 0 25px 0 25px;
+  /* background-image: url('./Components/photos/p1.png');
+ background-repeat: no-repeat; */
+  background-size: 100%;
+  background-position: center;
+  background-image: linear-gradient(rgba(229, 111, 43, 0.5), rgba(57, 57, 57, 0.5)),
+    url("./Components/photos/p1.png");
+  color: rgb(0, 0, 0);
+  background-clip: border-box;
+  font-family: "Great Vibes";
+}
+
+.cont5 .col6 p {
+  font-family: "Unna";
+}
+
+.cont5 .col6 button {
+  font-family: "Sevillana";
+  font-size: 130%;
+}
+
+
+
+
+
+
+/* *************AboutEvent******************** */
+
+.cont6 h2 {
+  /* text-decoration: underline; */
+  margin-left: -2%;
+}
+
+.cont6 .row6 .lefto {
+  border: 2px solid rgb(255, 255, 255);
+  border-radius: 10px 10px 0 0;
+  /* width: 40%; */
+  background-color: rgb(58, 58, 58);
+  margin-left: 1%;
+
+}
+
+.cont6 .row6 .lefto .aboutorg h5 {
+  font-family: "Unno";
+}
+
+.cont6 .row6 .lefto .aboutorg h4 {
+  font-family: "Unno";
+}
+
+.cont6 .row6 .lefto .aboutorg h2 {
+  font-family: "Unno";
+}
+
+.cont6 .row6 .lefto img {
+  border-radius: 50%;
+  max-height: 30%;
+}
+
+.upper {
+  width: 100%;
+  height: 12%;
+  /* background-color: orangered; */
+  position: absolute;
+  top: 0;
+  opacity: 0.3;
+  z-index: -2;
+}
+
+.cont6 .row5 p {
+  font-size: 1.1rem;
+}
+
+.cont6 li {
+  font-size: 1.15rem;
+  margin-bottom: 10px;
+}
+
+hr.foothr {
+  width: 100%;
+  color: white;
+  margin-bottom: 0;
+}
+
+.footdst {
+  /* position: absolute; */
+  width: 100%;
+  bottom: 0;
+}
+
+.cont6 .aboutorg h2 {
+  font-size: 1.9rem;
+}
+
+.cont6 .details .detailcol {
+  /* background-color: yellow; */
+  border-left: 2px solid white;
+  border-right: 2px solid white;
+  border-bottom: 2px solid white;
+  border-radius: 10px;
+  box-shadow: 0 0 5px 5px rgb(220, 147, 39);
+}
+
+.cont6 .register button {
+  font-size: 1.3rem;
+  background-color: rgb(235, 186, 37);
+  padding: 2%;
+  font-weight: 500;
+  box-shadow: 3px 3px 5px rgb(235, 205, 114);
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+
+
+/* ***************registration form ******************* */
+
+
+.registrationform input {
+  width: 100%;
+  margin-left: 2%;
+  margin-bottom: 1%;
+  height: 30px;
+  /* background-color: red; */
+  display: block;
+  border-radius: 5px;
+}
+
+.registrationform input.radio {
+  max-width: 3%;
+  display: inline-block;
+
+  height: 1.5cqh;
+  margin-top: 0.5%;
+  margin-right: 8%;
+  margin-left: 2%;
+}
+
+.registrationform button {
+  font-size: 1.3rem;
+  padding: 5px 10px;
+  margin-left: 50%;
+  margin-top: 2%;
+  border-radius: 10px;
+  background-color: gold;
+}
+
+
+
+.registrationform label {
+  /* width: 10%; */
+  font-size: 1.3rem;
+  margin-left: 2%;
+  padding: 0;
+  display: inline-block;
+  /* background-color: blue; */
+}
+
+.registrationform p.note {
+  margin-left: 2%;
+}
+
+.registrationform label.radio {
+  width: 15%;
+  text-align: center;
+}
+
+.registrationform label.institute {
+  font-size: 1.3rem;
+  width: 15%;
+  font-weight: 500;
+}
+
+
+.form {
+  background-image: url('./Components/photos/Form\ backgrounds/rdbg1.jpeg');
+  background-repeat: no-repeat;
+  background-size: 170%;
+  min-height: 100vh;
+  background-position: center;
+}
+
+.about .matter {
+  background-color: rgb(240, 94, 41);
+  border: 2px solid white;
+  border-radius: 10px;
+  box-sizing: border-box;
+  box-shadow: 0 0 6px 5px rgb(241, 120, 76);
+}
+
+
+/* ***********gallery*************** */
+
+.gcard {
+  font-family: 'unna';
+}
+
+.gcard img {
+  max-width: 100%;
+  width: 100%;
+  border-radius: 10px 0 10px 0;
+  height: auto;
+  /* height: 20%; */
+}
+
+.gcard h4 {
+  border-bottom: 1px solid white;
+}
+
+.gcard:hover {
+  transition: .3s;
+  transform: scale(1.2);
+}
+
+.cont7 textarea {
+  overflow: hidden;
+  max-width: 100%;
+  border-radius: 10px;
+  background-color: rgb(255, 97, 40);
+  color: white;
+  box-sizing: border-box;
+  box-shadow: 5px 5px 10px 2px orangered;
+}
+
+.cont7 .button {
+  justify-self: end;
+  margin-left: auto;
+}
+
+.cont7 button {
+  padding: 5px 10px;
+  font-size: 1.2rem;
+  border-radius: 10px;
+  justify-self: end;
+}
+
+/* ***********gallery*************** */
+
+@media(max-width: 1400px) {
+  .cont6 .aboutorg h2 {
+    font-size: 1.7rem;
+  }
+
+  .cont2 .row2 .about h1 {
+    font-size: 3rem;
+  }
+}
+
+
+@media(max-width: 1200px) {
+  .cont6 .aboutorg h2 {
+    font-size: 1.5rem;
+  }
+
+  .cont2 .row2 .about h1 {
+    font-size: 2.5rem;
+  }
+}
+
+@media(max-width: 1100px) {
+  .cont2 .row2 .about {
+    font-size: 1.1rem;
+    /* width: 40%; */
+  }
+
+
+}
+
+@media(max-width:992px) {
+  .cont3 .row4 .left {
+    border: none;
+  }
+
+  .cont6 li {
+    font-size: 1.05rem;
+    margin-bottom: 8px;
+  }
+
+  .cont3 .row4 .left img {
+    padding: 0;
+  }
+
+  .cont6 .lefto {
+    margin-left: -65px;
+  }
+
+  .cont6 .aboutorg h2 {
+    font-size: 1.5rem;
+  }
+
+  .registrationform label.institute {
+    width: 100%;
+  }
+
+  .registrationform label.radio {
+    width: 24%;
+    margin-left: 5%;
+  }
+
+  .cont2 .row2 .about h1 {
+    font-size: 2rem;
+  }
+
+}
+
+@media (max-width: 880px) {
+  .cont2 .row2 .about {
+    font-size: 1rem;
+  }
+
+  .form {
+    background-size: 400%;
+  }
+}
+
+@media(max-width: 768px) {
+  .row4 img {
+    max-height: 80%;
+  }
+
+  .cont6 .lefto {
+    margin-left: 0px;
+  }
+
+  .cultural1 p {
+    color: rgb(255, 227, 67)
+  }
+
+  .literature1 p {
+    color: rgb(255, 227, 67)
+  }
+
+  img.bgimg {
+    top: 7.5%;
+    left: 18%;
+    transform: scale(1.5);
+  }
+
+  .mainheadbody {
+    background-image: url('./Components/photos/Form\ backgrounds/rdbg3.jpg');
+    background-repeat: no-repeat;
+    background-size: 500%;
+    background-position: calc();
+    background-color: rgb(0, 0, 0);
+
+  }
+}
+
+@media(max-width: 576px) {
+  .row4 img {
+    max-height: 100%;
+  }
+
+  .cont2 .row2 .about {
+    margin-top: 5%;
+    margin-left: 3%;
+  }
+
+  .cont6 li {
+    font-size: 0.9rem;
+    margin-bottom: 5px;
+  }
+
+  .headerrow .header .right {
+    margin-right: 5%;
+  }
+}
