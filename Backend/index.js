@@ -22,7 +22,7 @@ mongoose.connect(atlasurl, { useNewUrlParser: true, useUnifiedTopology: true })
     })
 
 app.use((req, res, next) => {
-    res.setHeader("Access-Control-Allow-Origin", "https://stavya.onrender.com");
+    res.setHeader("Access-Control-Allow-Origin", "*");
     res.header(
         "Access-Control-Allow-Headers",
         "Origin, X-Requested-With, Content-Type, Accept"
