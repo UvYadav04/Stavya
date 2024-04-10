@@ -115,7 +115,7 @@ export default function Form() {
 
             <div className="container registrationform text-white mt-3">
                 <div className="row text-white justify-content-start flex-row">
-                    <div className="col-md-8 col-10">
+                    <div className="col-md-8 col-sm-10 col-12">
                         <p className={state.title === "Nrityakala" ? "text-white mt-3 mb-0 note" : "d-none"}>NOTE: In this Event you can fill atleast 1 and atmost 3 members.</p>
                         <p className='text-white note'>NOTE: Fill the form carefully. Once submitted you'll be unable to edit it.</p>
                         <label htmlFor="name">Full Name : </label>
