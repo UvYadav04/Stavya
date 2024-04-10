@@ -82,7 +82,7 @@ export default function Form() {
 
         // const Form = new FormData()
         // Form.append('image', image)
-        let response = await fetch("https://stavya-0uc8.onrender.com//registration/new", {
+        let response = await fetch("https://stavya-tw5o.onrender.com/registration/new", {
             method: "POST",
             enctype: "multipart/form-data",
             headers: {
