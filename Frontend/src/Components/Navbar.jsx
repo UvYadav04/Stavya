@@ -29,11 +29,11 @@ export default function Navbar() {
                         <MenuTwoToneIcon className='ms-auto' sx={{ fontSize: 40, color: 'white' }} onClick={() => handle()} />
                     </div>
 
-                    <div className={menu ? "menubar d-md-none d-flex flex-column px-1 w-auto m-0 py-1 text-white show" : "hide"}>
-                        <a href="/" className='text-decoration-none text-white fs-5'>Home</a>
-                        <a href="/Gallery" className='text-decoration-none text-white fs-5'>Gallery</a>
-                        <a href="/About" className='text-decoration-none text-white fs-5'>About</a>
-                        <a href="/feedback" className='text-decoration-none text-white fs-5'>Feedback</a>
+                    <div className={menu ? "menubar d-md-none d-flex flex-column px-4 py-2 text-white show text-center" : "hide"}>
+                        <a href="/" className='text-decoration-none text-white fs-4'>Home</a>
+                        <a href="/Gallery" className='text-decoration-none text-white fs-4'>Gallery</a>
+                        <a href="/About" className='text-decoration-none text-white fs-4'>About</a>
+                        <a href="/feedback" className='text-decoration-none text-white fs-4'>Feedback</a>
                     </div>
                 </div>
             </div >

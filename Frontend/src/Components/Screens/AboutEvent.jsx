@@ -57,23 +57,23 @@ export default function AboutEvent() {
                     </div>
                     <div className="row row6 justify-content-center align-items-center  mt-5  ">
                         <div className="col-10 ">
-                            <h2>Organisers:)</h2>
+                            <h2>Organisers</h2>
                         </div>
                         <div className="col-lg-5 col-md-7 col-10 lefto d-flex flex-row  py-3 gap-4 mt-2">
-                            <img src={Event.image1} width="45%" alt="" />
+                            <img src={Event.image1} width="45%" className='h-auto' alt="" />
                             <div className="aboutorg mt-4">
-                                <h2 className='text-decoration-none'>{Event.org1}</h2>
-                                <h4>Batch : 2022</h4>
-                                <h5 className='font-family-none'>Contact: 98XXXXXXXX</h5>
+                                <h2 className='text-decoration-none fs-sm-2 fs-4'>{Event.org1}</h2>
+                                <h4 className='fs-sm-4 fs-5'>Batch : 2022</h4>
+                                <h5 className='font-family-none fs-sm-5 fs-6'>Contact: 98XXXXXXXX</h5>
 
                             </div>
                         </div>
                         <div className="col-lg-5 col-md-7 col-10 lefto d-flex flex-row gap-4 py-3 mt-2">
                             <img src={Event.image2} width="45%" alt="" />
                             <div className="aboutorg mt-4">
-                                <h2 className='text-decoration-none'>{Event.org2}</h2>
-                                <h4>Batch : 2022</h4>
-                                <h5 className='font-family-none'>Contact: 98XXXXXXXX</h5>
+                                <h2 className='text-decoration-none fs-sm-2 fs-4'>{Event.org2}</h2>
+                                <h4 className='fs-sm-4 fs-5'>Batch : 2022</h4>
+                                <h5 className='font-family-none fs-sm-5 fs-6'>Contact: 98XXXXXXXX</h5>
                             </div>
                         </div>
                     </div>
@@ -93,13 +93,13 @@ export default function AboutEvent() {
                         </div>
                     </div>
                     <div className="row register justify-content-end mt-4 ">
-                        <div className="col-lg-3 col-md-4 col-sm-6 col-8 d-flex justify-content-center">
-                            <button onClick={() => { handleregister() }}>Register Now</button>
+                        <div className=" text-end col">
+                            <button className='fs-5 p-sm-2 p-1' onClick={() => { handleregister() }}>Register Now</button>
                         </div>
                     </div>
                     <div className="row justify-content-center mt-4">
                         <hr className='foothr' />
-                        <div className="col-3 py-2">
+                        <div className="col text-center py-2">
                             copyright@2024-stavya-iiitvicd
                         </div>
                     </div>

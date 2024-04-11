@@ -187,7 +187,7 @@ export default function Literature() {
                 </section>
 
                 <div className={clicked ? "row less justify-content-end mt-4" : "d-none"}>
-                    <div className="col-1">
+                    <div className="col text-end    ">
                         <button onClick={handleclick} className='fs-5 bg-transparent border-none button2' >Less</button>
                     </div>
                 </div>

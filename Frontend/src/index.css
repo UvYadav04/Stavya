@@ -69,11 +69,15 @@ body {
   position: absolute;
   transition: 0.5s;
   background: linear-gradient(to right, rgb(104, 2, 2), black);
-  min-height: 20%;
+  min-height: 93vh;
+  z-index: 5;
+  width: 50%;
+  max-width: 160px;
+
 }
 
 .show {
-  right: 8%;
+  right: 0;
   top: 7%;
 }
 
@@ -321,9 +325,7 @@ img.bgimg11 {
 .cont3 button.button2 {
   width: 60px;
   border-right: 1.5px solid rgb(0, 0, 0) !important;
-  /*changed*/
   border-bottom: 2px solid rgb(0, 0, 0) !important;
-  /*changed*/
 }
 
 
