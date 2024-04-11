@@ -7,7 +7,7 @@ export default function Navbar() {
     const [menu, setmenu] = useState(false)
 
     const handle = () => {
-        console.log("handling")
+        // console.log("handling")
         setmenu(!menu)
     }
 
