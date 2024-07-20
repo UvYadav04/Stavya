@@ -16,26 +16,26 @@ export default function CulturalCard(props) {
         navigate('/registration', { state: { members: props.members, title: props.title, inter: props.inter } })
     }
     return (
-        <>
-            <div className={props.position === 'L' ? "row row4 justify-content-md-start mt-0 m-md-5 mb-md-0 mb-4" : "row row4 justify-content-md-end mt-0 mt-md-5  mb-md-0 mb-4"}>
-                <div className="col-xl-4  col-md-6 col-8 d-sm-flex d-none align-item-center justify-content-start  left ">
-                    <img src={props.image} alt="" />
-                </div>
-                <div className="col-xl-4 col-md-6 col-12 event1">
-                    <h2 className='mt-2 ml-4'>{props.title}</h2>
-                    <hr className='hr' />
-                    <p>{props.matter}</p>
-                    <div className="row justify-content-between  mt-4">
-                        <div className="col-md-5 col-6">
-                            <button className='p-1 mb-3' onClick={() => handlemore()}   >More</button>
-                        </div>
-                        <div className="col-md-5 col-6">
-                            <button className='p-1 mb-3' onClick={() => handleregister()}>Register</button>
-                        </div>
+
+        <div className={props.position === 'L' ? "row row4 justify-content-md-start mt-0 m-md-5 mb-md-0 mb-4" : "row row4 justify-content-md-end mt-0 mt-md-5  mb-md-0 mb-4"}>
+            <div className="col-xl-4  col-md-6 col-8 d-sm-flex d-none align-item-center justify-content-start  left ">
+                <img src={props.image} alt="" />
+            </div>
+            <div className="col-xl-4 col-md-6 col-12 event1">
+                <h2 className='mt-2 ml-4'>{props.title}</h2>
+                <hr className='hr' />
+                <p>{props.matter}</p>
+                <div className="row justify-content-between  mt-4">
+                    <div className="col-md-5 col-6">
+                        <button className='p-1 mb-3' onClick={() => handlemore()}   >More</button>
+                    </div>
+                    <div className="col-md-5 col-6">
+                        <button className='p-1 mb-3' onClick={() => handleregister()}>Register</button>
                     </div>
                 </div>
+            </div>
 
-            </div   >
-        </>
+        </div   >
+
     )
 }

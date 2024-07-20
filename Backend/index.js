@@ -11,7 +11,7 @@ app.set('views', path.join(__dirname, '/views'));
 app.use(express.urlencoded({ extended: true }))
 app.use(express.json())
 
-const password = encodeURIComponent('#Uvyadav04');
+
 const atlasurl = `mongodb+srv://uvyadav04:uvyadav123@cluster1.ae0pw2e.mongodb.net/?retryWrites=true&w=majority&appName=Cluster1`
 mongoose.connect(atlasurl, { useNewUrlParser: true, useUnifiedTopology: true })
     .then(() => {
