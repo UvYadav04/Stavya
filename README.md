@@ -10,5 +10,5 @@ Welcome to **STAVYA**! This website serves as a platform for a vibrant cultural 
 ## 📅 Explore Events
 Discover the exciting events organized under STAVYA and participate through the event forms!
 
-## 🌐 Visit Us
+## 🌐 Visit Stavya
 You can check out the live website at [STAVYA](https://officialstavya.onrender.com/).
